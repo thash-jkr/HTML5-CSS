@@ -1,0 +1,115 @@
+@media(max-width: 600px){
+    #welcome-section{
+      width: 100%;
+      float: none;
+    }
+  
+    #navbar{
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #000;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e60000;
+  }
+  
+  #navbar li {
+    float: left;
+  }
+  
+  #navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  #welcome-section {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    background-color: #404040;
+  }
+  
+  #welcome-section h1{
+    padding-top: 40vh;
+  }
+  
+  #welcome-section p{
+    color: #e60000;
+    font-size: 30px;
+  }
+  
+  #projects {
+    background-color: #b3d1ff;
+    font-size: 30px;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  #projects h2{
+    padding-top: 40px;
+    margin-top: 0;
+  }
+  
+  #projects a {
+    display: inline;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #contacts {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: #404040;
+    height: 100vh;
+  }
+  
+  #contacts h3{
+    padding-top: 40vh;
+  }
+  
+  #contacts p , #contacts a{
+    color: #e60000;
+    font-size: 30px;
+  }
+  
+  #contacts a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #contacts a:hover {
+    font-size: 32px;
+  }

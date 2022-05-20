@@ -1,0 +1,44 @@
+h1 {
+    color: #001a33;
+    text-align: center;
+    font-family: Tahoma;
+    padding: 10px;
+  }
+  
+  body {
+      background-color: #fff;
+      color: black;
+      font-family: Tahoma;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.7em;
+  }
+  
+  #main {
+    background-color: #bfbfbf;
+    color: #000;
+    font-family: monospace;
+  
+  }
+  
+  #img-div{
+    background-color: white;
+  }
+  
+  #image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  #img-caption {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  #tribute-link {
+    text-align: center;
+  }

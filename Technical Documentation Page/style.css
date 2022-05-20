@@ -1,0 +1,43 @@
+@media(min-width: 700px){
+    body {
+      display: flex;
+    }
+  }
+  
+  body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+  }
+  
+  #main-doc {
+    padding: 20px;
+  }
+  
+  #navbar{
+    border: 1px solid #000;
+    width: 55%;
+  }
+  
+  #navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  #navbar li a {
+    display: block;
+    color: #000;
+    padding: 38px 16px;
+    text-decoration: none;
+  }
+  
+  #navbar li a:hover {
+    background-color: #555;
+    color: white;
+  }

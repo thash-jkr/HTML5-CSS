@@ -1,0 +1,108 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+  }
+  
+  #pad {
+    padding: 60px;
+  }
+  
+  #header {
+    font-size: 15px;
+    background-color: #fff;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  #orgin {
+    float: right;
+    width: 30%;
+  }
+  
+  #nav-bar {
+    float: left;
+    width: 20%;
+  }
+  
+  #nav-bar ul{
+    padding: 0;
+    list-style: none;
+    padding-left: 30px;
+  }
+  
+  #nav-bar li{
+    display: inline;
+    padding: 20px;
+  }
+  
+  #nav-bar a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  
+  #flex-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  #women-section, #men-section, #kids-section {
+    padding: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+  
+  #video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  #form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 50px;
+    font-size: 40px;
+  }
+  
+  #form #email{
+    padding: 7px;
+  }
+  
+  #form #submit{
+    padding: 5px;
+  }
+  
+  #main-footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  @media(max-width: 600px){
+    #flex-container{
+      width: 100%;
+      float: none;
+    }
+  }
